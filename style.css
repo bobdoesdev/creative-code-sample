@@ -1,0 +1,48 @@
+.cat {
+    width: 303px;
+    height: 280px;
+    background-image: url('./orange-boi.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+    animation: rotation 10s infinite linear;
+ }
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.partyButton{
+
+    border: none;
+    background: #FAAE19;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 2rem 1rem;
+    margin: 2rem;
+}
+
+.partyPooper{
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+.stage{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
